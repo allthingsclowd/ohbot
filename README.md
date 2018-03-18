@@ -1,5 +1,5 @@
 # ohbot
-Playing with ohbot.co.uk
+Playing with http://www.ohbot.co.uk/
 
 ## docker image
 https://hub.docker.com/r/allthingscloud/ohbot-rpi/
