@@ -9,4 +9,4 @@ git clone https://github.com/ohbot/ohbot-python.git
 
 WORKDIR /ohbot-python/examples
 
-CMD amixer set PCM -- -200 && python helloworldohbot.py
+CMD amixer set PCM -- -200 && python /ohbot-python/examples/helloworldohbot.py
