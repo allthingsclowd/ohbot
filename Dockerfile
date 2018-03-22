@@ -6,8 +6,8 @@ pip3 install ohbot && \
 pip3 install pyserial && \
 apt-get install -y festival python3-lxml && \
 git clone https://github.com/ohbot/ohbot-python.git && \
-amixer set PCM -- -200
+echo "amixer set PCM -- -200\npython /ohbot-python/examples/helloworldohbot.py\n" > /ohbot-python/examples/loud-ohbot.sh 
 
 WORKDIR /ohbot-python/examples
 
-CMD python /ohbot-python/examples/helloworldohbot.py
+CMD loud-ohbot.sh
