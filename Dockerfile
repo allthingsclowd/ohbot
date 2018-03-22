@@ -10,4 +10,4 @@ echo "amixer set PCM -- -200\npython /ohbot-python/examples/helloworldohbot.py\n
 
 WORKDIR /ohbot-python/examples
 
-CMD loud-ohbot.sh
+CMD sh loud-ohbot.sh
