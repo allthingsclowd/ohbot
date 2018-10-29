@@ -2,7 +2,7 @@ FROM arm32v7/python:3.7.0b2-stretch
 
 RUN apt-get update && \
 apt-get install -y git python3-pip alsa-utils && \
-pip3 install pip3 --upgrade && \
+pip3 install --upgrade pip3 && \
 pip3 install ohbot && \
 pip3 install pyserial && \
 pip3 install rpi.gpio && \
